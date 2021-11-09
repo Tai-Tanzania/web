@@ -229,7 +229,7 @@
 
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="ud-about-title">
-                    <span style="color: white">About Us</span>
+                    {{-- <span style="color: white">About Us</span> --}}
                     <h2 style="color: white">
                         Power of Innovative Storytelling
                     </h2>
