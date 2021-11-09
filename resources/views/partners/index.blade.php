@@ -87,7 +87,7 @@
 </header>
 
 <!-- ====== Features Start ====== -->
-<section id="features" class="ud-features">
+<section id="features" class="ud-features" style="padding-bottom: 0px !important">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -146,6 +146,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+            <img src="{{ asset('assets/images/tai-kids.png') }}" alt="..">
+          </div>
+        </div>
     </div>
 </section>
 <!-- ====== Features End ====== -->
@@ -157,16 +162,12 @@
         <div class="row">
           <div class="col-lg-12 col-md-12">
               <div class="ud-section-title">
-                  <span style="color: white">STORIES</span>
+                  <span style="color: white">OUR DONATIONS</span>
               </div>
           </div>
       </div>
         <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
           
-          <iframe width="100%" height="500" src="https://www.youtube.com/embed/NjQfWJVpwhU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
 
         </div>
       </div>
