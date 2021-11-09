@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css?v.2" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css?v.3" />
 </head>
 
 <body>

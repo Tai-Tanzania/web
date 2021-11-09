@@ -59,7 +59,7 @@
             <div class="col-lg-12">
                 <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
                     <h1 class="ud-hero-title">
-                        Inspiring Social Change <br> through Storytelling
+                        Inspiring Social Change through Storytelling
                     </h1>
                     <p class="ud-hero-desc">
                         We use storytelling and media technology to promote positive outcomes in health, education and
@@ -93,15 +93,21 @@
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
                     <span style="color: black">OUR WORK</span>
-                    <h2>Stories have the power to change the world</h2>
-                    <p>
-                        We are pioneers in the field of Social and Behavioral Change Communication (SBCC) in Tanzania.
-                        We write compelling human-centred narratives and present them in form of 3D animations, comic
-                        strip posters and radio plays with the aim of encouraging positive social behavioural change.
-                        Our strategic use of stories allows us to appeal to a broad audience while our focus on
-                        education remains true to our mission of increasing youth participation in addressing social and
-                        economic development challenges in Tanzania.
-                    </p>
+                    <h2>Stories have the power to <br> change the world</h2>
+                    <div class="text-center" style="max-width: 100%">
+                        <p>
+                            We are pioneers in the field of Social and Behavioral Change Communication (SBCC) <br> in
+                            Tanzania.
+                            We write compelling human-centred narratives and present them <br> in form of 3D animations,
+                            comic
+                            strip posters and radio plays with the aim of encouraging <br> positive social behavioural
+                            change.
+                            Our strategic use of stories allows us to <br> appeal to a broad audience while our focus on
+                            education remains true to our mission <br> of increasing youth participation in addressing
+                            social and
+                            economic <br> development challenges in Tanzania.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,32 +153,65 @@
             </div>
         </div>
         <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-            <img src="{{ asset('assets/images/tai-kids.png') }}" alt="..">
-          </div>
+            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <img src="{{ asset('assets/images/tai-kids.png') }}" alt="..">
+            </div>
         </div>
     </div>
 </section>
 <!-- ====== Features End ====== -->
 
 
-    <!-- ====== About Start ====== -->
-    <section id="about" class="ud-about">
-      <div class="container">
+<!-- ====== About Start ====== -->
+<section id="about" class="ud-about">
+    <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12">
-              <div class="ud-section-title">
-                  <span style="color: white">OUR DONATIONS</span>
-              </div>
-          </div>
-      </div>
-        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-          
+            <div class="col-lg-12 col-md-12">
+                <div class="ud-section-title">
+                    <span style="color: white">OUR DONATIONS</span>
+                </div>
+            </div>
+        </div>
+        <div class="row wow fadeInUp text-center" data-wow-delay=".2s">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
+                <p style="color: white; font-size: 13">
+                    End date: 19th November
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
+                <p style="color: white; font-size: 13">
+                    End date: 19th November
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
+                <p style="color: white; font-size: 13">
+                    End date: 19th November
+                </p>
+            </div>
+
+            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <br><br>
+                <a href="#" style="background: white; color: black" rel="nofollow noopener" target="_blank"
+                    class="ud-main-btn ud-white-btn">
+                    Donate
+                </a>
+            </div>
 
         </div>
-      </div>
-    </section>
-    <!-- ====== About End ====== -->
+    </div>
+</section>
+<!-- ====== About End ====== -->
 
 <!-- ====== Work Start ====== -->
 <section id="about" class="ud-features">
@@ -187,36 +226,36 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-              <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-              <br><br>
-              <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
 
-              <a href="#" rel="nofollow noopener" target="_blank"
-            class="ud-main-btn ud-dark-btn" style="background: transparent;">
-            Learn more<i class="lni lni-arrow-right"></i>
-        </a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-            <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-            <br><br>
-            <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Learn more<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
 
-            <a href="#" rel="nofollow noopener" target="_blank"
-            class="ud-main-btn ud-dark-btn" style="background: transparent;">
-            Learn more<i class="lni lni-arrow-right"></i>
-        </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-          <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
-          <br><br>
-          <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Learn more<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
 
-          <a href="#" rel="nofollow noopener" target="_blank"
-            class="ud-main-btn ud-dark-btn" style="background: transparent;">
-            Learn more<i class="lni lni-arrow-right"></i>
-        </a>
-      </div>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Learn more<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
         </div>
 
     </div>
@@ -231,7 +270,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="ud-about-title">
                     {{-- <span style="color: white">About Us</span> --}}
-                    <h2 style="color: white">
+                    <h2 style="color: white;font-size: 50px !important">
                         Power of Innovative Storytelling
                     </h2>
                     <br>
@@ -270,39 +309,40 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/camara edu logo.png') }}" class="tai-partners" alt="">
+                </div>
+            </div>
+
             <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/UNESCO_logo_hor_blue.png') }}" style="filter: grayscale(100%)"
+                    <img src="{{ asset('assets/logos/USADF Logo.png') }}" class="tai-partners" style="max-width: 100px"
+                        alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/Segal Logo.png') }}" style="max-width: 120px" class="tai-partners"
                         alt="">
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/USADF Logo.png') }}"
-                        style="filter: grayscale(100%); max-width: 100px" alt="">
+                    <img src="{{ asset('assets/logos/UNESCO_logo_hor_blue.png') }}" style="max-width: 200px"
+                        class="tai-partners" alt="">
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/Segal Logo.png') }}"
-                        style="filter: grayscale(100%); max-width: 120px" alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/camara edu logo.png') }}" style="filter: grayscale(100%)" alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}"
-                        style="max-width: 220px;filter: grayscale(100%)" alt="">
+                    <img class="tai-partners" src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}"
+                        style="max-width: 220px;" alt="">
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}"
-                        style="max-width: 220px;filter: grayscale(100%)" alt="">
+                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}" style="max-width: 220px" class="tai-partners"
+                        alt="">
                 </div>
             </div>
 
@@ -320,7 +360,7 @@
                     <div class="ud-contact-title">
                         <span style="color: white">CONTACT US</span>
                         <h2 style="color: white">
-                          Be the First to <br> Hear Our Stories
+                            Be the First to <br> Hear Our Stories
                         </h2>
                     </div>
                     <div class="ud-contact-info-wrapper">
@@ -331,8 +371,8 @@
                             <div class="ud-info-meta">
                                 <h5>Our Location</h5>
                                 <p>48 Msikitini Street, Mikocheni B, P.O. Box 54631, Kinondoni,
-                                  Dar es Salaam</p>
-                                
+                                    Dar es Salaam</p>
+
                             </div>
                         </div>
                         <div class="ud-single-info">

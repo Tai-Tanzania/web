@@ -1,18 +1,9 @@
-/* =======
-
-	Template Name: Play Bootstrap
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://github.com/uideck/
-	Version: 1.0
-
-======== */
 /*===========================
   COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
 :root {
-  --font: "Inter", sans-serif;
+  --font: "Merriweather", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
   --primary-color: #3056d3;
@@ -545,7 +536,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #c85a48;
+  background-color: #030303b3;
   opacity: 0.5;
   z-index: 1;
 }
@@ -578,7 +569,7 @@ header .overlay {
 }
 
 .ud-hero-content {
-  max-width: 780px;
+  max-width: 800px;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -586,8 +577,8 @@ header .overlay {
 .ud-hero-content .ud-hero-title {
   color: var(--white);
   font-weight: 700;
-  font-size: 45px;
-  line-height: 60px;
+  font-size: 65px;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -608,7 +599,7 @@ header .overlay {
 
 .ud-hero-content .ud-hero-desc {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 35px;
   text-align: center;
   color: var(--white);
@@ -760,15 +751,15 @@ header .overlay {
 
 .ud-section-title h2 {
   font-weight: 700;
-  font-size: 42px;
-  line-height: 55px;
+  font-size: 60px;
+  line-height: 70px;
   text-transform: capitalize;
   color: var(--heading-color);
   margin-bottom: 20px;
 }
 
 .ud-section-title p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -782,6 +773,15 @@ header .overlay {
 .ud-single-feature {
   margin-bottom: 40px;
   width: 100%;
+}
+
+.tai-partners{
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.tai-partners:hover{
+  filter: grayscale(0%);
 }
 
 .ud-single-feature:hover .ud-feature-icon::before {
