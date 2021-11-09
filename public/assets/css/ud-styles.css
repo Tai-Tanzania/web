@@ -658,6 +658,11 @@ header .overlay {
   color: var(--heading-color);
 }
 
+.ud-dark-btn{
+  background: var(--white);
+  color: #c85a48;
+}
+
 .ud-hero-buttons .ud-white-btn:hover {
   -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
@@ -732,6 +737,17 @@ header .overlay {
   max-width: 100%;
   margin-bottom: 70px;
   text-align: center;
+}
+.ud-about-title{
+  max-width: 100%;
+  margin-bottom: 70px;
+}
+
+.ud-about-title span {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
 }
 
 .ud-section-title span {
@@ -1386,7 +1402,7 @@ header .overlay {
   top: 0;
   left: 0;
   height: 50%;
-  background: #f3f4fe;
+  background: #c85a48;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1446,7 +1462,7 @@ header .overlay {
 
 .ud-contact-info-wrapper .ud-info-icon {
   font-size: 32px;
-  color: var(--primary-color);
+  color: #c85a48;
   margin-right: 24px;
 }
 

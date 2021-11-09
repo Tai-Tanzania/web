@@ -8,8 +8,8 @@
     <!-- The HTML5 video element that will create the background video on the header -->
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="{{ asset('assets/videos/mbuland.mp4') }}" type="video/mp4">
-          <source src="{{ asset('assets/videos/mbuland.ogm') }}" type="video/ogm">
-            <source src="{{ asset('assets/videos/mbuland.webm') }}" type="video/webm">
+        <source src="{{ asset('assets/videos/mbuland.ogm') }}" type="video/ogm">
+        <source src="{{ asset('assets/videos/mbuland.webm') }}" type="video/webm">
     </video>
 
     <!-- The header content -->
@@ -56,31 +56,32 @@
             </div>
         </div>
         <div class="row" style="margin-top: 60px !important">
-          <div class="col-lg-12">
-              <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-                  <h1 class="ud-hero-title">
-                      Inspiring Social Change <br> through Storytelling
-                  </h1>
-                  <p class="ud-hero-desc">
-                    We use storytelling and media technology to promote positive outcomes in health, education and social justice.
-                  </p>
-                  <ul class="ud-hero-buttons">
-                      <li>
-                          <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener"
-                              target="_blank" class="ud-main-btn ud-white-btn">
-                              Donate
-                          </a>
-                      </li>
-                      <li>
-                          <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank"
-                              class="ud-main-btn ud-link-btn" style="background: transparent;">
-                             Watch Mbuland<i class="lni lni-arrow-right"></i>
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </div>
+            <div class="col-lg-12">
+                <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
+                    <h1 class="ud-hero-title">
+                        Inspiring Social Change <br> through Storytelling
+                    </h1>
+                    <p class="ud-hero-desc">
+                        We use storytelling and media technology to promote positive outcomes in health, education and
+                        social justice.
+                    </p>
+                    <ul class="ud-hero-buttons">
+                        <li>
+                            <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener"
+                                target="_blank" class="ud-main-btn ud-white-btn">
+                                Donate
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank"
+                                class="ud-main-btn ud-link-btn" style="background: transparent;">
+                                Watch Mbuland<i class="lni lni-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
 </header>
@@ -124,7 +125,7 @@
                         <i class="lni lni-gift"></i>
                     </div> --}}
                     <div class="ud-feature-content">
-                      <h3 class="ud-feature-title" style="font-size: 40px">13</h3>
+                        <h3 class="ud-feature-title" style="font-size: 40px">13</h3>
                         <p class="ud-feature-desc">
                             Scolarships given
                         </p>
@@ -137,7 +138,7 @@
                         <i class="lni lni-gift"></i>
                     </div> --}}
                     <div class="ud-feature-content">
-                      <h3 class="ud-feature-title" style="font-size: 40px">1000</h3>
+                        <h3 class="ud-feature-title" style="font-size: 40px">1000</h3>
                         <p class="ud-feature-desc">
                             Youths reached
                         </p>
@@ -149,36 +150,108 @@
 </section>
 <!-- ====== Features End ====== -->
 
-<!-- ====== About Start ====== -->
-<section id="about" class="ud-about">
+
+    <!-- ====== About Start ====== -->
+    <section id="about" class="ud-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+              <div class="ud-section-title">
+                  <span style="color: white">STORIES</span>
+              </div>
+          </div>
+      </div>
+        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
+          
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/NjQfWJVpwhU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+        </div>
+      </div>
+    </section>
+    <!-- ====== About End ====== -->
+
+<!-- ====== Work Start ====== -->
+<section id="about" class="ud-features">
     <div class="container">
+
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <span style="color: white !important">OUR WORK</span>
+                    <span style="color: black">OUR STORIES</span>
                 </div>
             </div>
         </div>
-        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-            <div class="ud-about-content-wrapper">
-                <div class="ud-about-content">
-                    <span class="tag">About Us</span>
-                    <h2>Brilliant Toolkit to Build Nextgen Website Faster.</h2>
-                    <p>
-                        The main ‘thrust’ is to focus on educating attendees on how to
-                        best protect highly vulnerable business applications with
-                        interactive panel discussions and roundtables led by subject
-                        matter experts.
-                    </p>
 
-                    <p>
-                        The main ‘thrust’ is to focus on educating attendees on how to
-                        best protect highly vulnerable business applications with
-                        interactive panel.
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+              <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+              <br><br>
+              <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
+
+              <a href="#" rel="nofollow noopener" target="_blank"
+            class="ud-main-btn ud-dark-btn" style="background: transparent;">
+            Learn more<i class="lni lni-arrow-right"></i>
+        </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+            <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+            <br><br>
+            <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
+
+            <a href="#" rel="nofollow noopener" target="_blank"
+            class="ud-main-btn ud-dark-btn" style="background: transparent;">
+            Learn more<i class="lni lni-arrow-right"></i>
+        </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
+          <br><br>
+          <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
+
+          <a href="#" rel="nofollow noopener" target="_blank"
+            class="ud-main-btn ud-dark-btn" style="background: transparent;">
+            Learn more<i class="lni lni-arrow-right"></i>
+        </a>
+      </div>
+        </div>
+
+    </div>
+</section>
+<!-- ====== Work End ====== -->
+
+<!-- ====== About Start ====== -->
+<section id="features" class="ud-features" style="background:#c85a48">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="ud-about-title">
+                    <span style="color: white">About Us</span>
+                    <h2 style="color: white">
+                        Power of Innovative Storytelling
+                    </h2>
+                    <br>
+                    <p style="text-align: justify; color: white">
+                        We are a youth-led NGO in Dar es Salaam, Tanzania
+                        aspiring for social behavioural change and growth
+                        by contributing to projects that bring positive
+                        change in our communities. We use 3D Animations,
+                        Radio Dramas & Comics to deliver crucial messages
+                        to the community, especially adolescents in Tanzania.
                     </p>
-                    <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
                 </div>
             </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+                <iframe width="100%" height="325" src="https://www.youtube.com/embed/NjQfWJVpwhU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
         </div>
     </div>
 </section>
@@ -196,37 +269,39 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
                     <img src="{{ asset('assets/logos/UNESCO_logo_hor_blue.png') }}" style="filter: grayscale(100%)"
                         alt="">
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
                     <img src="{{ asset('assets/logos/USADF Logo.png') }}"
                         style="filter: grayscale(100%); max-width: 100px" alt="">
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
                     <img src="{{ asset('assets/logos/Segal Logo.png') }}"
                         style="filter: grayscale(100%); max-width: 120px" alt="">
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
                     <img src="{{ asset('assets/logos/camara edu logo.png') }}" style="filter: grayscale(100%)" alt="">
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}" style="filter: grayscale(100%)" alt="">
+                    <img src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}"
+                        style="max-width: 220px;filter: grayscale(100%)" alt="">
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6">
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}" style="filter: grayscale(100%)" alt="">
+                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}"
+                        style="max-width: 220px;filter: grayscale(100%)" alt="">
                 </div>
             </div>
 
@@ -242,10 +317,9 @@
             <div class="col-xl-8 col-lg-7">
                 <div class="ud-contact-content-wrapper">
                     <div class="ud-contact-title">
-                        <span>CONTACT US</span>
-                        <h2>
-                            Let’s talk about <br />
-                            Love to hear from you!
+                        <span style="color: white">CONTACT US</span>
+                        <h2 style="color: white">
+                          Be the First to <br> Hear Our Stories
                         </h2>
                     </div>
                     <div class="ud-contact-info-wrapper">
@@ -255,7 +329,9 @@
                             </div>
                             <div class="ud-info-meta">
                                 <h5>Our Location</h5>
-                                <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                                <p>48 Msikitini Street, Mikocheni B, P.O. Box 54631, Kinondoni,
+                                  Dar es Salaam</p>
+                                
                             </div>
                         </div>
                         <div class="ud-single-info">
@@ -264,8 +340,7 @@
                             </div>
                             <div class="ud-info-meta">
                                 <h5>How Can We Help?</h5>
-                                <p>info@yourdomain.com</p>
-                                <p>contact@yourdomain.com</p>
+                                <p>info@tai.or.tz</p>
                             </div>
                         </div>
                     </div>
@@ -283,16 +358,8 @@
                             <label for="email">Email*</label>
                             <input type="email" name="email" placeholder="example@yourmail.com" />
                         </div>
-                        <div class="ud-form-group">
-                            <label for="phone">Phone*</label>
-                            <input type="text" name="phone" placeholder="+885 1254 5211 552" />
-                        </div>
-                        <div class="ud-form-group">
-                            <label for="message">Message*</label>
-                            <textarea name="message" rows="1" placeholder="type your message here"></textarea>
-                        </div>
                         <div class="ud-form-group mb-0">
-                            <button type="submit" class="ud-main-btn">
+                            <button type="submit" class="ud-main-btn" style="background: #c85a48">
                                 Send Message
                             </button>
                         </div>

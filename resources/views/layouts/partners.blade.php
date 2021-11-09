@@ -8,25 +8,25 @@
     <title>{{ env('APP_NAME') }}</title>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-    <meta name="description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+    <meta name="title" content="Tai Tanzania | Parners">
+    <meta name="description" content="Site for Friends of Tai">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
+    {{-- <meta property="og:type" content="website">
     <meta property="og:url" content="https://uideck.com/play/">
     <meta property="og:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
     <meta property="og:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-    <meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
+    <meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg"> --}}
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
+    {{-- <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://uideck.com/play/">
     <meta property="twitter:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
     <meta property="twitter:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-    <meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
+    <meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg"> --}}
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+    <link rel="shortcut icon" href="assets/images/tai-favocon.png" type="image/png" />
 
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -56,11 +56,10 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="ud-widget">
                             <a href="index.html" class="ud-footer-logo">
-                                <img src="assets/images/logo/logo.svg" alt="logo" />
+                                <img src="{{ asset('assets/images/Tai Logo - white.png') }}" alt="logo" />
                             </a>
                             <p class="ud-widget-desc">
-                                We create digital experiences for brands and companies by
-                                using technology.
+                                We use storytelling and media technology to promote positive outcomes in health, education and social justice.
                             </p>
                             <ul class="ud-widget-socials">
                                 <li>
@@ -80,7 +79,7 @@
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/MusharofChy">
-                                        <i class="lni lni-linkedin-original"></i>
+                                        <i class="lni lni-youtube-original"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -147,45 +146,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
-                        <div class="ud-widget">
-                            <h5 class="ud-widget-title">Partners</h5>
-                            <ul class="ud-widget-brands">
-                                <li>
-                                    <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/ayroui.svg" alt="ayroui" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/ecommerce-html.svg"
-                                            alt="ecommerce-html" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://graygrids.com/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/graygrids.svg" alt="graygrids" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/lineicons.svg" alt="lineicons" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://uideck.com/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/uideck.svg" alt="uideck" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindtemplates.co/" rel="nofollow noopner" target="_blank">
-                                        <img src="assets/images/footer/brands/tailwindtemplates.svg"
-                                            alt="tailwindtemplates" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -206,10 +166,10 @@
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <p class="ud-footer-bottom-right">
+                        {{-- <p class="ud-footer-bottom-right">
                             Designed and Developed by
                             <a href="https://uideck.com" rel="nofollow">UIdeck</a>
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>
