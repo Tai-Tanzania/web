@@ -33,7 +33,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="ud-menu-scroll" href="#about">ABOUT US</a>
+                                <a class="ud-menu-scroll" href="#about">WHO WE ARE</a>
                             </li>
 
                             <li class="nav-item">
@@ -43,6 +43,10 @@
                             <li class="nav-item">
                                 <a class="ud-menu-scroll" href="#about">PROJECTS</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="ud-menu-scroll" href="#about">GET INVOLVED</a>
+                            </li>                            
 
                         </ul>
                     </div>
