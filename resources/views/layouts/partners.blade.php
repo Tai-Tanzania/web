@@ -43,7 +43,7 @@
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="/">
-                        <img src="assets/images/Tai Logo - white.png" alt="Logo" />
+                        <img src="assets/images/Tai Logo - black.png" alt="Logo" />
                     </a>
                     <button class="navbar-toggler">
                         <span class="toggler-icon"> </span>
@@ -54,19 +54,19 @@
                     <div class="navbar-collapse">
                         <ul id="nav" class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#home">HOME</a>
+                                <a class="ud-menu-scroll text-dark" href="#about">ABOUT</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">ABOUT US</a>
+                                <a class="ud-menu-scroll text-dark" href="#about">What We Do</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">OUR WORK</a>
+                                <a class="ud-menu-scroll text-dark" href="#about">Take Action</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">PROJECTS</a>
+                                <a class="ud-menu-scroll text-dark" href="#about">Contact</a>
                             </li>
 
                         </ul>

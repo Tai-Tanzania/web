@@ -26,15 +26,15 @@
                     </p>
                     <ul class="ud-hero-buttons">
                         <li>
-                            <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener"
+                            <a href="#" rel="nofollow noopener"
                                 target="_blank" class="ud-main-btn ud-white-btn">
                                 Donate
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank"
+                            <a href="#" rel="nofollow noopener" target="_blank"
                                 class="ud-main-btn ud-link-btn btn btn-outline-light" style="background: transparent;">
-                                Watch Mbuland<i class="lni lni-arrow-right"></i>
+                                Watch Mbuland
                             </a>
                         </li>
                     </ul>
@@ -154,7 +154,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-                <img src="{{-- asset('assets/images/tai-kids.png') --}}" alt="..">
+                <img src="{{ asset('assets/images/tai-kids.png') }}" alt="..">
             </div>
         </div>
     </div>
