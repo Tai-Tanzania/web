@@ -33,7 +33,7 @@
                         </li>
                         <li>
                             <a href="#" rel="nofollow noopener" target="_blank"
-                                class="ud-main-btn ud-link-btn btn btn-outline-light" style="background: transparent;">
+                                class="buttoni" style="">
                                 Watch Mbuland
                             </a>
                         </li>
@@ -287,7 +287,7 @@
                 <br>
                 <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
                     style="background: transparent;">
-                    Continue to story<i class="lni lni-arrow-right"></i>
+                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 text-center">
@@ -299,7 +299,7 @@
                 <br>
                 <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
                     style="background: transparent;">
-                    Continue to story<i class="lni lni-arrow-right"></i>
+                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 text-center">
@@ -311,7 +311,7 @@
                 <br>
                 <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
                     style="background: transparent;">
-                    Continue to story<i class="lni lni-arrow-right"></i>
+                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
                 </a>
             </div>
         </div>

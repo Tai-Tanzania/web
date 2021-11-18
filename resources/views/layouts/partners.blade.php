@@ -51,10 +51,16 @@
                         <span class="toggler-icon"> </span>
                     </button>
 
-                    <div class="navbar-collapse">
+                    <div class="collapse navbar-collapse">
                         <ul id="nav" class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">ABOUT</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle ud-menu-scroll text-dark" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false" href="#">ABOUT</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  </div>
                             </li>
 
                             <li class="nav-item">
@@ -71,7 +77,7 @@
 
                         </ul>
                     </div>
-
+                    
                     <div class="navbar-btn d-none d-sm-inline-block">
                         <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
                             Donate
