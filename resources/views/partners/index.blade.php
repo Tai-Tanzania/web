@@ -14,47 +14,6 @@
 
     <!-- The header content -->
     <div class="container pt-4">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="/">
-                        <img src="assets/images/Tai Logo - white.png" alt="Logo" />
-                    </a>
-                    <button class="navbar-toggler">
-                        <span class="toggler-icon"> </span>
-                        <span class="toggler-icon"> </span>
-                        <span class="toggler-icon"> </span>
-                    </button>
-
-                    <div class="navbar-collapse">
-                        <ul id="nav" class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll" href="#home">HOME</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll" href="#about">ABOUT US</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll" href="#about">OUR WORK</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll" href="#about">PROJECTS</a>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                    <div class="navbar-btn d-none d-sm-inline-block">
-                        <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                            Donate
-                        </a>
-                    </div>
-                </nav>
-            </div>
-        </div>
         <div class="row" style="margin-top: 60px !important">
             <div class="col-lg-12">
                 <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
@@ -74,7 +33,7 @@
                         </li>
                         <li>
                             <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank"
-                                class="ud-main-btn ud-link-btn" style="background: transparent;">
+                                class="ud-main-btn ud-link-btn btn btn-outline-light" style="background: transparent;">
                                 Watch Mbuland<i class="lni lni-arrow-right"></i>
                             </a>
                         </li>
@@ -92,10 +51,9 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <span style="color: black">OUR WORK</span>
-                    <h2>Stories have the power to <br> change the world</h2>
-                    <div class="text-center" style="max-width: 100%">
-                        <p>
+                    <h2 style="color: #6C412E">Stories have the power to <br> change the world</h2>
+                    <div class="text-center" style=" max-width: 100% ">
+                        <p style="color: #6C412E">
                             We are pioneers in the field of Social and Behavioral Change Communication (SBCC) <br> in
                             Tanzania.
                             We write compelling human-centred narratives and present them <br> in form of 3D animations,
@@ -111,7 +69,49 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="padding-bottom: 80px;">
+        
+            <div class="col-lg-12 col-md-12">
+                <div class="ud-section-title">
+                    <h2 style="color: #6C412E">Our Projects</h2>
+                </div>
+            </div>
+        
+    
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center" >
+                    <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                    <br><br>
+                    
+    
+                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                        style="background: transparent;">
+                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+                    <br><br>
+                    
+    
+                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                        style="background: transparent;">
+                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
+                    <br><br>
+                    
+    
+                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                        style="background: transparent;">
+                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 40px;">
             <div class="col-xl-4 col-lg-4 col-sm-12">
                 <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
                     {{-- <div class="ud-feature-icon text-center">
@@ -154,7 +154,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-                <img src="{{ asset('assets/images/tai-kids.png') }}" alt="..">
+                <img src="{{-- asset('assets/images/tai-kids.png') --}}" alt="..">
             </div>
         </div>
     </div>
@@ -168,143 +168,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <span style="color: white">OUR DONATIONS</span>
-                </div>
-            </div>
-        </div>
-        <div class="row wow fadeInUp text-center" data-wow-delay=".2s">
-            <div class="col-md-4 col-lg-4 col-sm-12">
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
-                <p style="color: white; font-size: 13">
-                    End date: 19th November
-                </p>
-            </div>
-
-            <div class="col-md-4 col-lg-4 col-sm-12">
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
-                <p style="color: white; font-size: 13">
-                    End date: 19th November
-                </p>
-            </div>
-
-            <div class="col-md-4 col-lg-4 col-sm-12">
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px; color: white">Mbuland Marathon Drive</h2>
-                <p style="color: white; font-size: 13">
-                    End date: 19th November
-                </p>
-            </div>
-
-            <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-                <br><br>
-                <a href="#" style="background: white; color: black" rel="nofollow noopener" target="_blank"
-                    class="ud-main-btn ud-white-btn">
-                    Donate
-                </a>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- ====== About End ====== -->
-
-<!-- ====== Work Start ====== -->
-<section id="about" class="ud-features">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <span style="color: black">OUR STORIES</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
-
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    Learn more<i class="lni lni-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
-
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    Learn more<i class="lni lni-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
-
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    Learn more<i class="lni lni-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- ====== Work End ====== -->
-
-<!-- ====== About Start ====== -->
-<section id="features" class="ud-features" style="background:#c85a48">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="ud-about-title">
-                    {{-- <span style="color: white">About Us</span> --}}
-                    <h2 style="color: white;font-size: 50px !important">
-                        Power of Innovative Storytelling
-                    </h2>
-                    <br>
-                    <p style="text-align: justify; color: white">
-                        We are a youth-led NGO in Dar es Salaam, Tanzania
-                        aspiring for social behavioural change and growth
-                        by contributing to projects that bring positive
-                        change in our communities. We use 3D Animations,
-                        Radio Dramas & Comics to deliver crucial messages
-                        to the community, especially adolescents in Tanzania.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
-                <iframe width="100%" height="325" src="https://www.youtube.com/embed/NjQfWJVpwhU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- ====== About End ====== -->
-
-<!-- ====== Friends Start ====== -->
-<section id="about" class="ud-features">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <span style="color: black">FRIENDS OF TAI</span>
-                    <h2>Partners we are proud to <br> work with</h2>
+                    <h2 style="color: white">Friends of Tai Tanzania</h2>
                 </div>
             </div>
         </div>
@@ -347,6 +211,147 @@
             </div>
 
         </div>
+    </div>
+</section>
+<!-- ====== About End ====== -->
+
+<!-- ====== Friends Start ====== -->
+<section id="about" class="ud-features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="ud-section-title">
+                    <h2 style="color: #6C412E">Awards</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/blog-images/image-4.png') }}" class="tai-partners" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/blog-images/image-4.png') }}" class="tai-partners" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img src="{{asset('assets/blog-images/image-4.png')}}" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center text-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img src="{{asset('assets/blog-images/image-4.png')}}"  class="tai-partners" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img class="tai-partners" src="{{asset('assets/blog-images/image-4.png')}}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center">
+                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
+                    <img src="{{asset('assets/blog-images/image-4.png')}}" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+</section>
+<!-- ====== About End ====== -->
+
+<!-- ====== Work Start ====== -->
+<section id="about" class="ud-features">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="ud-section-title">
+                    <h2 style="color: #6C412E">Latest News</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
+                <br>
+                <p>interesting snippet of our story giving more context</p>
+                <br>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Continue to story<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
+                <br>
+                <p>interesting snippet of our story giving more context</p>
+                <br>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Continue to story<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
+                <br><br>
+                <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
+                <br>
+                <p>interesting snippet of our story giving more context</p>
+                <br>
+                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
+                    style="background: transparent;">
+                    Continue to story<i class="lni lni-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- ====== Work End ====== -->
+
+<!-- ====== About Start ====== -->
+<section id="features" class="ud-features" style="background:#FFCE97">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="ud-about-title">
+                     <span style="color: black">About Us</span> 
+                    <h2 style="color: black;font-size: 50px !important">
+                        Intresting heading about our cause
+                    </h2>
+                    <br>
+                    <p style="text-align: justify; color: black">
+                        We are a youth-led NGO in Dar es Salaam, Tanzania
+                        aspiring for social behavioural change and growth
+                        by contributing to projects that bring positive
+                        change in our communities. We use 3D Animations,
+                        Radio Dramas & Comics to deliver crucial messages
+                        to the community, especially adolescents in Tanzania.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+                <iframe width="100%" height="325" src="https://www.youtube.com/embed/NjQfWJVpwhU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </div>
 </section>
 <!-- ====== About End ====== -->
 
