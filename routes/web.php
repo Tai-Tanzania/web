@@ -28,6 +28,9 @@ Route::get('/approach', [PagesController::class, 'approach']);
 Route::get('/team', [PagesController::class, 'team']);
 Route::get('/reports', [PagesController::class, 'reports']);
 
+//what we do
+Route::get('/duty', [PagesController::class, 'duty']);
+
 //for how we do it
 Route::get('/handling', [PagesController::class, 'handling']);
 Route::get('/animations', [PagesController::class, 'animations']);

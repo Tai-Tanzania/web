@@ -21,6 +21,11 @@ class PagesController extends Controller
         return view('partners.history');
     }
 
+    public function duty()
+    {
+        return view('partners.duty');
+    }
+
     public function strategy()
     {
         return view('partners.strategy');
@@ -74,6 +79,11 @@ class PagesController extends Controller
     public function story()
     {
         return view('partners.story');
+    }
+
+    public function sponsor()
+    {
+        return view('partners.sponsor');
     }
 
     public function team()
