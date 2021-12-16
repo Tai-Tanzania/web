@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,3 +45,6 @@ Route::get('/donation', [PagesController::class, 'donation']);
 Route::get('/story', [PagesController::class, 'story']);
 Route::get('/careers', [PagesController::class, 'careers']);
 Route::get('/partner', [PagesController::class, 'partner']);
+
+Route::get('articles', [ArticleController::class, 'index']);
+Route::get('article/{id}', [ArticleController::class, 'article']);

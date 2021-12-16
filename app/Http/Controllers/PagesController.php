@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Article;
 
 class PagesController extends Controller
 {
     public function index() 
     {
-        return view('partners.index');
+        $articles = Article::take(3)->get();
+        return view('partners.index',\compact('articles'));
     }
 
     public function about()

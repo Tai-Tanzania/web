@@ -26,13 +26,13 @@
     <meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg"> --}}
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/tai-favocon.png" type="image/png" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/tai-favocon.png') }}" type="image/png" />
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css?v.4" />
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/lineicons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/ud-styles.css?v.5') }}" />
 </head>
 
 <body>
@@ -41,7 +41,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="assets/images/Tai Logo - black.png" alt="Logo" />
+                <img src="{{ asset('assets/images/Tai Logo - black.png') }}" alt="Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -61,7 +61,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/about">Our Mission & Vision</a></li>
                             <li><a class="dropdown-item" href="/history">History</a></li>
-                            <li><a class="dropdown-item" href="/strategy">Strategy</a></li>
+                            {{-- <li><a class="dropdown-item" href="/strategy">Strategy</a></li> --}}
                             <li><a class="dropdown-item" href="/approach">Approach</a></li>
                             <li><a class="dropdown-item" href="/team">Team</a></li>
                             {{-- <li><a class="dropdown-item" href="/reports">Annual Reports</a></li> --}}
@@ -88,17 +88,18 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/sponsor">Sponsor a child</a></li>
-                            <li><a class="dropdown-item" href="/story">Tell a story</a></li>
+                            {{-- <li><a class="dropdown-item" href="/story">Tell a story</a></li> --}}
                             <li><a class="dropdown-item" href="/careers">Careers</a></li>
                             <li><a class="dropdown-item" href="/partner">Our partners</a></li>
                         </ul>
                     </li>
                 </ul>
-                <div class="d-flex">
-                    <a class="ud-main-btn ud-white-btn" style="background: #6c4130" href="javascript:void(0)">
+                {{-- <div class="d-flex">
+                    <a class="ud-main-btn ud-white-btn" target="_blank" style="background: #6c4130"
+                        href="https://kbfus.networkforgood.com/projects/53825-t-kbfus-funds-tai-tanzania-tz">
                         Donate
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </nav>
@@ -109,15 +110,7 @@
 
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-        <div class="shape shape-1">
-            <img src="assets/images/footer/shape-1.svg" alt="shape" />
-        </div>
-        <div class="shape shape-2">
-            <img src="assets/images/footer/shape-2.svg" alt="shape" />
-        </div>
-        <div class="shape shape-3">
-            <img src="assets/images/footer/shape-3.svg" alt="shape" />
-        </div>
+    
         <div class="ud-footer-widgets">
             <div class="container">
                 <div class="row">
@@ -132,22 +125,22 @@
                             </p>
                             <ul class="ud-widget-socials">
                                 <li>
-                                    <a href="https://twitter.com/MusharofChy">
+                                    <a href="https://web.facebook.com/taitanzania/">
                                         <i class="lni lni-facebook-filled"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/MusharofChy">
+                                    <a href="https://twitter.com/taitanzania">
                                         <i class="lni lni-twitter-filled"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/MusharofChy">
+                                    <a href="https://www.instagram.com/taitanzania/?hl=en">
                                         <i class="lni lni-instagram-filled"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/MusharofChy">
+                                    <a href="https://www.youtube.com/c/TaiTanzaniay">
                                         <i class="lni lni-youtube-original"></i>
                                     </a>
                                 </li>
@@ -253,9 +246,9 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js?v.2"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
         // ==== for menu scroll
         const pageLink = document.querySelectorAll(".ud-menu-scroll");

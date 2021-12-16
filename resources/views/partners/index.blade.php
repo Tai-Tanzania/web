@@ -18,7 +18,9 @@
             <div class="col-lg-12">
                 <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
                     <h1 class="ud-hero-title">
-                        Inspiring <span style="background: black; padding: 0px 20px; color: white; font-size: 60px">Social Change</span> through Storytelling
+                        Inspiring <span
+                            style="background: black; padding: 0px 20px; color: white; font-size: 60px">Social
+                            Change</span> through Storytelling
                     </h1>
                     <p class="ud-hero-desc">
                         We use storytelling and media technology to promote positive outcomes in health, education and
@@ -26,8 +28,9 @@
                     </p>
                     <ul class="ud-hero-buttons">
                         <li>
-                            <a href="#" rel="nofollow noopener" target="_blank"
-                                class="buttoni" style="background: #ffba56; border: 1px solid #ffba56; color:white" style="">
+                            <a href="#" rel="nofollow noopener" target="_blank" class="buttoni"
+                                style="background: black; border: 1px solid black;font-weight: bold; color:white"
+                                style="">
                                 Watch Mbuland
                             </a>
                         </li>
@@ -45,7 +48,9 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Stories have the power to <br> <span style="background: black; padding: 5px 20px; color: white; font-size: 60px">change the world</span></h2>
+                    <h2 style="color: #6C412E">Stories have the power to <br> <span
+                            style="background: black; padding: 5px 20px; color: white; font-size: 60px">change the
+                            world</span></h2>
                     <div class="text-center" style=" max-width: 100% ">
                         <p style="color: #6C412E">
                             We are pioneers in the field of Social and Behavioral Change Communication (SBCC) <br> in
@@ -60,48 +65,6 @@
                             economic <br> development challenges in Tanzania.
                         </p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="padding-bottom: 80px;">
-        
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Our Projects</h2>
-                </div>
-            </div>
-        
-    
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center" >
-                    <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                    <br><br>
-                    
-    
-                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                        style="background: transparent;">
-                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-                    <br><br>
-                    
-    
-                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                        style="background: transparent;">
-                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
-                    <br><br>
-                    
-    
-                    <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                        style="background: transparent;">
-                        <i class="btn btn-outline-secondary" style="color: #6C412E">Learn more</i>
-                    </a>
                 </div>
             </div>
         </div>
@@ -138,7 +101,7 @@
                         <i class="lni lni-gift"></i>
                     </div> --}}
                     <div class="ud-feature-content">
-                        <h3 class="ud-feature-title" style="font-size: 40px">1000</h3>
+                        <h3 class="ud-feature-title" style="font-size: 40px">8000</h3>
                         <p class="ud-feature-desc">
                             Youths reached
                         </p>
@@ -155,178 +118,18 @@
 </section>
 <!-- ====== Features End ====== -->
 
-
 <!-- ====== About Start ====== -->
-<section id="about" class="ud-about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h2 style="color: white">Friends of Tai Tanzania</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/camara edu logo.png') }}" class="tai-partners" alt="">
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/USADF Logo.png') }}" class="tai-partners" style="max-width: 100px"
-                        alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/Segal Logo.png') }}" style="max-width: 120px" class="tai-partners"
-                        alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/UNESCO_logo_hor_blue.png') }}" style="max-width: 200px"
-                        class="tai-partners" alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img class="tai-partners" src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}"
-                        style="max-width: 220px;" alt="">
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}" style="max-width: 220px" class="tai-partners"
-                        alt="">
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- ====== About End ====== -->
-
-<!-- ====== Friends Start ====== -->
-<section id="about" class="ud-features">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Awards</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/blog-images/image-4.png') }}" class="tai-partners" alt="">
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img src="{{ asset('assets/blog-images/image-4.png') }}" class="tai-partners" alt="">
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img src="{{asset('assets/blog-images/image-4.png')}}" class="tai-partners"
-                        alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center text-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img src="{{asset('assets/blog-images/image-4.png')}}"  class="tai-partners" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img class="tai-partners" src="{{asset('assets/blog-images/image-4.png')}}" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center">
-                <div class="ud-single-feature text-center wow fadeInUp" style="background-color: #C95A48" data-wow-delay=".1s">
-                    <img src="{{asset('assets/blog-images/image-4.png')}}" class="tai-partners"
-                        alt="">
-                </div>
-            </div>
-
-        </div>
-</section>
-<!-- ====== About End ====== -->
-
-<!-- ====== Work Start ====== -->
-<section id="about" class="ud-features">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Latest News</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">NAWEZA Press Release</h2> <br>
-                <br>
-                <p>interesting snippet of our story giving more context</p>
-                <br>
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">Empowering The Girl Child In The Digital Generational</h2>
-                <br>
-                <p>interesting snippet of our story giving more context</p>
-                <br>
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1536x1022.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h2 style="font-size: 20px">Coming together to tackle Gender-Based Violence in Tanzania</h2>
-                <br>
-                <p>interesting snippet of our story giving more context</p>
-                <br>
-                <a href="#" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-dark-btn"
-                    style="background: transparent;">
-                    <button type="button" class="btn text-white " style="background-color: #6C412E;">view more</button>
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- ====== Work End ====== -->
-
-<!-- ====== About Start ====== -->
-<section id="features" class="ud-features" style="background:#ffba56">
+<section id="features" class="ud-features" style="background:#6c4130">
     <div class="container">
         <div class="row">
 
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="ud-about-title">
-                     <span style="color: black">About Us</span> 
-                    <h2 style="color: black;font-size: 50px !important">
-                        Interesting heading about our cause
+                    <h2 style="color: white;font-size: 50px !important">
+                        About Us
                     </h2>
                     <br>
-                    <p style="text-align: justify; color: black">
+                    <p style="text-align: justify; color: white">
                         We are a youth-led NGO in Dar es Salaam, Tanzania
                         aspiring for social behavioural change and growth
                         by contributing to projects that bring positive
@@ -348,6 +151,125 @@
     </div>
 </section>
 <!-- ====== About End ====== -->
+
+
+
+<!-- ====== About Start ====== -->
+<section class="my-5">
+    <div class="container">
+        <div class="text-center">
+            <h2 style="color: black">Friends of Tai</h2>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-sm-6 mt-4">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/unfpa.png') }}" style="max-width: 220px" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/camara edu logo.png') }}" class="tai-partners" alt="">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/USADF Logo.png') }}" class="tai-partners" style="max-width: 100px"
+                        alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/Segal Logo.png') }}" style="max-width: 160px" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center text-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/UNESCO_logo_hor_blue.png') }}" style="max-width: 200px"
+                        class="tai-partners" alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 text-center d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img class="tai-partners" src="{{ asset('assets/logos/Duke UNICEF Logo.png') }}"
+                        style="max-width: 220px;" alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/FCS LOGO2_0.png') }}" style="max-width: 220px" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-sm-6 mt-4 d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/kipaji.png') }}" style="max-width: 220px" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 mt-4 d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/googlenonprofits.png') }}" style="max-width: 220px"
+                        class="tai-partners" alt="">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-6 mt-4 d-flex flex-column justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay=".1s">
+                    <img src="{{ asset('assets/logos/hdif.png') }}" style="max-width: 220px" class="tai-partners"
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ====== About End ====== -->
+
+
+<section class="my-5">
+    <div class="container">
+
+        <div class="text-center">
+            <h2 style="color: black">Latest News</h2>
+        </div>
+
+        <div class="row mt-4">
+            
+            @foreach ($articles as $article)
+            <div class="col-md-4 col-lg-4 col-sm-12 text-center">
+                <div class="card" style="width: 350px">
+                    <div
+                        style="height: 200px; background-image: url('{{ asset($article->featured_image) }}'); background-size:cover; background-repeat: no-repeat">
+
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <strong>{{ $article->title }}</strong>
+                        </p>
+                        <br>
+                        <a href="/article/{{ $article->id }}" style="color:#e48822"><small>Read more</small></a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        {{ \Carbon\Carbon::parse($article->published_date)->diffForHumans() }}
+                    </div>
+                </div>
+            </div>
+            @endforeach
+
+        </div>
+
+
+        <div class="mt-4 text-center">
+            <a href="/articles" style="background:#e48822; color:white" class="btn">View more</a>
+        </div>
+
+    </div>
+
+</section>
 
 
 <!-- ====== Contact Start ====== -->
