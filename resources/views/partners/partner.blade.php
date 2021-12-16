@@ -1,6 +1,6 @@
 @component('layouts.partners')
 
-<section class="my-5">
+<section class="my-5" style="height: 70vh">
     <div class="container">
 
         <div class="text-center" style="padding: 0 150px">
