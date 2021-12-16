@@ -111,127 +111,38 @@
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
     
-        <div class="ud-footer-widgets">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="ud-widget">
-                            <a href="index.html" class="ud-footer-logo">
-                                <img src="{{ asset('assets/images/Tai Logo - white.png') }}" alt="logo" />
-                            </a>
-                            <p class="ud-widget-desc">
-                                We use storytelling and media technology to promote positive outcomes in health,
-                                education and social justice.
-                            </p>
-                            <ul class="ud-widget-socials">
-                                <li>
-                                    <a href="https://web.facebook.com/taitanzania/">
-                                        <i class="lni lni-facebook-filled"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/taitanzania">
-                                        <i class="lni lni-twitter-filled"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/taitanzania/?hl=en">
-                                        <i class="lni lni-instagram-filled"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/c/TaiTanzaniay">
-                                        <i class="lni lni-youtube-original"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                        <div class="ud-widget">
-                            <h5 class="ud-widget-title">About Us</h5>
-                            <ul class="ud-widget-links">
-                                <li>
-                                    <a href="javascript:void(0)">Home</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Features</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">About</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Testimonial</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                        <div class="ud-widget">
-                            <h5 class="ud-widget-title">Features</h5>
-                            <ul class="ud-widget-links">
-                                <li>
-                                    <a href="javascript:void(0)">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Privacy policy</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Terms of service</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Refund policy</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                        <div class="ud-widget">
-                            <h5 class="ud-widget-title">Our Products</h5>
-                            <ul class="ud-widget-links">
-                                <li>
-                                    <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">Lineicons
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://ecommercehtml.com/" rel="nofollow noopner"
-                                        target="_blank">Ecommerce HTML</a>
-                                </li>
-                                <li>
-                                    <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">Ayro UI</a>
-                                </li>
-                                <li>
-                                    <a href="https://graygrids.com/" rel="nofollow noopner" target="_blank">Plain
-                                        Admin</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="ud-footer-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <ul class="ud-footer-bottom-left">
+                        <ul class="d-flex flex-row justify-content-start">
                             <li>
-                                <a href="javascript:void(0)">Privacy policy</a>
+                                <a href="https://web.facebook.com/taitanzania/">
+                                    <i class="lni lni-facebook-filled text-white pe-3"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Support policy</a>
+                                <a href="https://twitter.com/taitanzania">
+                                    <i class="lni lni-twitter-filled text-white pe-3"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Terms of service</a>
+                                <a href="https://www.instagram.com/taitanzania/?hl=en">
+                                    <i class="lni lni-instagram-filled text-white pe-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/TaiTanzaniay">
+                                    <i class="lni lni-youtube-original"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        {{-- <p class="ud-footer-bottom-right">
-                            Designed and Developed by
-                            <a href="https://uideck.com" rel="nofollow">UIdeck</a>
-                        </p> --}}
+                        <p class="ud-footer-bottom-right">
+                            © {{ date('Y') }} • All rights reserved | Tai Tanzania
+                        </p>
                     </div>
                 </div>
             </div>

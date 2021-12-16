@@ -18,7 +18,7 @@
                 Mission
             </span>
             <br><br>
-            <div style="padding: 0 170px">
+            <div>
                 <p>
                     We are influencing positive behavior change among young people and communities across Tanzania by increasing access to information and facilitating dialogue on issues that prevent young people from acquiring education. 
                 </p>

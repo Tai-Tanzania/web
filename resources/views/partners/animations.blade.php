@@ -6,7 +6,7 @@
             <span style="background: black; padding: 0px 20px; color: white; font-size: 40px">Animations</span>
         </div>
         <br><br>
-        <div style="padding: 0 150px">
+        <div>
             <p style="text-align: justify">
                 Our 3D Animations & Radio Dramas aim to tackle issues relating to Sexual Reproductive Health (SRH) including; Child Marriages, Teenage Pregnancies, HIV/AIDS, Gender Based Violence and Menstrual Health and Hygiene. Our content goes on to tackle the discrimination against specific groups of young people such as young people with disabilities. 
             </p>
