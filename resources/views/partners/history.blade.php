@@ -153,20 +153,21 @@
                             <span>2017</span>
                             <h4>Harakati za Ngeti Launched</h4>
                             <p>Harakati za Ngeti; First Animation through the Amua Accelerator funded by UNFPA &
-                                Education Scholarship Program Launched. Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Fugit aut sapiente sequi distinctio laboriosam odio inventore
-                                excepturi eaque, ad nemo quis natus dicta autem! Nobis laudantium tempore aliquid id?
-                                Modi!</p>
+                                Education Scholarship Program Launched.Harakati Za Ngeti Animated Series which has helped in
+                                 raising awareness and changing mindsets about Sexual Reproductive Health, Gender-Based Violence (GBV)
+                                  and other various issues which derail a young person’s academic journey, 
+                                  was found to be an effective tool to fight these challenges.</p>
                         </div>
                     </li>
                     <!-- Single Experience -->
                     <li>
                         <div class="timeline_content">
                             <span>2018</span>
-                            <h4>Nawaza Animation Launched</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque nesciunt quaerat quis
-                                laudantium nemo consectetur. Architecto perspiciatis esse pariatur quod voluptates
-                                labore cum quas veniam omnis, vero laboriosam obcaecati rem.</p>
+                            <h4>Naweza Animation Launched</h4>
+                            <p>Partnering up with the Tanzanian Government, and organizations like the UNFPA, UNESCO, UN Women
+                                 and KOICA Tanzania, helped in taking steps forward to reduce child marriage.
+                                  Child marriage is against human rights and we can protect our young girls 
+                                  who can move mountains from being held back as great leaders and change-makers they truly are.</p>
                         </div>
                     </li>
                     <!-- Single Experience -->
@@ -175,9 +176,10 @@
                             <span>2019</span>
                             <h4>Darubini Project Launched</h4>
                             <p>Darubini Project first funded by Foundation For Covil Society & Partnership with Segal
-                                Family Foundation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                                perspiciatis laboriosam iste consequatur perferendis minima ipsum nulla sint earum esse.
-                                Non excepturi rem cumque vitae rerum deserunt dolorem nihil quidem.</p>
+                                Family Foundation. Darubini Project aims to address Sexual and Reproductive Health issues
+                                 facing adolescents such as puberty, early sexual activities, intergenerational sex,
+                                  teenage pregnancy, child and forced marriage, gender-based violence (GBV) et.c.
+                                   that prevent young people, especially girls from accessing education.</p>
                         </div>
                     </li>
                     <li>
@@ -185,9 +187,10 @@
                             <span>2020</span>
                             <h4>Mwangaza Series & Chapa Magonjwa Series Launched</h4>
                             <p>Projects with UNESCO, UNICEF USA, UNFPA & USADF with the launch of Mwangaza Series &
-                                Chapa Magonjwa Series. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                                perspiciatis laboriosam iste consequatur perferendis minima ipsum nulla sint earum esse.
-                                Non excepturi rem cumque vitae rerum deserunt dolorem nihil quidem.</p>
+                                Chapa Magonjwa Series.Tai Tanzania adeptly fashioned an animated film NIVUSHE as a part of our Mwangaza Series 
+                                (an animation series with key focus on people living with disabilities) to create awareness
+                                 about the challenges that affect people with disabilities in order to decrease negative
+                                  attitude and stigma towards people living with disabilities in Tanzania.</p>
                         </div>
                     </li>
                     <li>
@@ -195,9 +198,8 @@
                             <span>2021</span>
                             <h4>11 animations produced</h4>
                             <p>Projects with UNFPA, HDIF & Partnership David Weekly Foundation with 11 animations
-                                produced. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis
-                                laboriosam iste consequatur perferendis minima ipsum nulla sint earum esse. Non
-                                excepturi rem cumque vitae rerum deserunt dolorem nihil quidem.</p>
+                                produced.Writing compelling human-centred narratives and presenting them in form of 3D animations,
+                                 comic strip posters and radio plays with the aim of encouraging positive social behavioural change. </p>
                         </div>
                     </li>
                 </ul>
