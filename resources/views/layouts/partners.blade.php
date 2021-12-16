@@ -32,61 +32,76 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css?v.3" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css?v.4" />
 </head>
 
 <body>
 
     <!-- navigation bar-->
-    <div class="container pt-4 bg-white">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="/">
-                        <img src="assets/images/Tai Logo - black.png" alt="Logo" />
-                    </a>
-                    <button class="navbar-toggler">
-                        <span class="toggler-icon"> </span>
-                        <span class="toggler-icon"> </span>
-                        <span class="toggler-icon"> </span>
-                    </button>
-
-                    <div class="collapse navbar-collapse">
-                        <ul id="nav" class="navbar-nav mx-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle ud-menu-scroll text-dark" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false" href="#">ABOUT</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                  </div>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">What We Do</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">Take Action</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="ud-menu-scroll text-dark" href="#about">Contact</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    
-                    <div class="navbar-btn d-none d-sm-inline-block">
-                        <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                            Donate
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="assets/images/Tai Logo - black.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Who we are
                         </a>
-                    </div>
-                </nav>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/about">Our Mission & Vision</a></li>
+                            <li><a class="dropdown-item" href="/history">History</a></li>
+                            <li><a class="dropdown-item" href="/strategy">Strategy</a></li>
+                            <li><a class="dropdown-item" href="/approach">Approach</a></li>
+                            <li><a class="dropdown-item" href="/team">Team</a></li>
+                            {{-- <li><a class="dropdown-item" href="/reports">Annual Reports</a></li> --}}
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What we do</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            How we do it
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/animations">Animations</a></li>
+                            <li><a class="dropdown-item" href="/comics">Storytelling for Social Change</a></li>
+                            <li><a class="dropdown-item" href="/community">Community Involvement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Take action
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/sponsor">Sponsor a child</a></li>
+                            <li><a class="dropdown-item" href="/story">Tell a story</a></li>
+                            <li><a class="dropdown-item" href="/careers">Careers</a></li>
+                            <li><a class="dropdown-item" href="/partner">Our partners</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="ud-main-btn ud-white-btn" style="background: #6c4130" href="javascript:void(0)">
+                        Donate
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
     <!-- end of navigation-->
 
 
@@ -112,7 +127,8 @@
                                 <img src="{{ asset('assets/images/Tai Logo - white.png') }}" alt="logo" />
                             </a>
                             <p class="ud-widget-desc">
-                                We use storytelling and media technology to promote positive outcomes in health, education and social justice.
+                                We use storytelling and media technology to promote positive outcomes in health,
+                                education and social justice.
                             </p>
                             <ul class="ud-widget-socials">
                                 <li>

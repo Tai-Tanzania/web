@@ -1,12 +1,13 @@
 @component('layouts.partners')
 
-<section id="features" class="ud-features" style="padding-bottom: 0px !important">
+<section class="my-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Approach</h2>
-                    <div class="text-center" style=" max-width: 100% ">
+                    <span style="background: black; padding: 0px 20px; color: white; font-size: 40px">Our Approach</span>
+                    <br><br>
+                    <div class="text-center">
                         <p style="color: #6C412E">
                             Tai Tanzania believes education to be a powerful tool in helping young people to reach their full potential.
                              In so doing, our organization focuses on ringing about socio – behavioural changes in community using storytelling
@@ -23,7 +24,7 @@
                     </div>
                 </div>
                 <div class="ud-section-title">
-                    <h3 style="color: #6C412E">1. PRE – PRODUCTION </h3>
+                    <span style="font-size: 30px; padding: 0px 30px; color: white; background: #c68d41">PRE – PRODUCTION </span>
                     <div class="text-center" style=" max-width: 100% ">
                         <p style="color: #6C412E">
                             This first stage involves story collection. A process which directly involves our beneficiaries.
@@ -31,14 +32,14 @@
                         </p>
                     </div>
                         <br><br>
-                    <h3 style="color: #6C412E">2. PRODUCTION </h3>
+                        <span style="font-size: 30px; padding: 0px 30px; color: white; background: #c68d41">PRODUCTION </span>
                     <div class="text-center" style=" max-width: 100% ">
                         <p style="color: #6C412E">
                             All our content is in-house produced. From the script writing, visuals and the audio.
                              The Tai Studio caters for all our creative content.
                     </div>
                         <br><br>
-                    <h3 style="color: #6C412E">3. POST – PRODUCTION  </h3>
+                        <span style="font-size: 30px; padding: 0px 30px; color: white; background: #c68d41"> POST – PRODUCTION  </span>
                     <div class="text-center" style=" max-width: 100% ">
                         <p style="color: #6C412E">
                             Our content is disseminated both online and in-person. 

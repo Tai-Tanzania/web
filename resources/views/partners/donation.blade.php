@@ -1,3 +1,7 @@
 @component('layouts.partners')
+    
+<h1>Donations</h1>
 
-<h1>your donations</h1>
+
+@endcomponent
+

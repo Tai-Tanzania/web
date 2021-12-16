@@ -1,128 +1,99 @@
 @component('layouts.partners')
 
-<section id="about" class="ud-features">
+<section class="my-5">
     <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Team</h2>
-                </div>
-            </div>
+        <div class="text-center">
+            <span style="background: black; padding: 0px 20px; color: white; font-size: 40px">
+                Team
+            </span>
         </div>
+        <br><br>
 
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h3 style="color: #6C412E">Co Founders</h3>
-                </div>
-            </div>
+        <div class="text-center">
+            <h3 style="color: #6C412E; text-decoration: underline">Co Founders</h3>
+            <br><br>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" alt="...">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 200px">
                 <br><br>
                 <h4 style="font-size: 20px">Ian Tarimo</h4> <br>
                 <br>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 200px">
                 <br><br>
                 <h4 style="font-size: 20px">Gwamaka Mwabuka </h4> <br>
                 <br>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 200px">
                 <br><br>
                 <h4 style="font-size: 20px">Alphonce Haule </h4> <br>
                 <br>
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h3 style="color: #6C412E">Head of Operations & Programs</h3>
-                </div>
+        <div class="row my-5">
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
+                <br><br>
+                <h5>Debora Mboya</h5>
+                <br>
+                <h4 style="font-size: 20px">Head of Operations & Programs</h4> 
             </div>
+
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
+                <br><br>
+                <h5>Magreth Mwambete</h5>
+                <br>
+                <h4 style="font-size: 20px">Human Resources Manager</h4> 
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
+                <br><br>
+                <h5>Mariam Mhina</h5>
+                <br>
+                <h4 style="font-size: 20px">Communications & Partnerships Manager</h4> 
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
+                <br><br>
+                <h5>Mustapha Juma</h5>
+                <br>
+                <h4 style="font-size: 20px">Finance Manager</h4> 
+            </div>
+
         </div>
 
-        <div class="row">
-            <div class="col-md-4 col-md-4 col-lg-12 text-center"> 
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
-                <br><br>
-                <h4 style="font-size: 20px">Debora Maboya</h4> <br>
-                <br>
-            </div>
+        <div class="mt-5 text-center">
+            <h3 style="color: #6C412E;text-decoration: underline">Interns</h3>
+            <br><br>
         </div>
-
         <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h3 style="color: #6C412E">Communications & Partnerships Manager</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-md-4 col-lg-12 text-center"> 
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
                 <br><br>
-                <h4 style="font-size: 20px">Mariam Mhina</h4> <br>
-                <br>
+                <h5>Dianne Charles</h5>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h3 style="color: #6C412E">Finance Manager</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-md-4 col-lg-12 text-center"> 
-                <img src="{{ asset('assets/blog-images/image-4.png') }}" alt="...">
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
                 <br><br>
-                <h4 style="font-size: 20px">Mustapha Juma</h4> <br>
-                <br>
+                <h5>Mariam Mintanga</h5>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="ud-section-title">
-                    <h3 style="color: #6C412E">Interns</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" alt="...">
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
                 <br><br>
-                <h4 style="font-size: 20px">Dianne Charles</h4> <br>
-                <br>
+                <h5>Rose Kudema</h5>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('assets/images/tailogoimage.png') }}" alt="..." style="max-width: 150px">
                 <br><br>
-                <h4 style="font-size: 20px">Mariam Mintanga </h4> <br>
-                <br>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h4 style="font-size: 20px">Rose Kudema </h4> <br>
-                <br>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                <img src="{{ asset('assets/blog-images/image-1.jpeg') }}" style="max-width:300px" alt="...">
-                <br><br>
-                <h4 style="font-size: 20px">Damas Donald </h4> <br>
-                <br>
+                <h5>Damas Donald</h5>
             </div>
         </div>
 

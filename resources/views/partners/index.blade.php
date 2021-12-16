@@ -18,7 +18,7 @@
             <div class="col-lg-12">
                 <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
                     <h1 class="ud-hero-title">
-                        Inspiring Social Change through Storytelling
+                        Inspiring <span style="background: black; padding: 0px 20px; color: white; font-size: 60px">Social Change</span> through Storytelling
                     </h1>
                     <p class="ud-hero-desc">
                         We use storytelling and media technology to promote positive outcomes in health, education and
@@ -26,14 +26,8 @@
                     </p>
                     <ul class="ud-hero-buttons">
                         <li>
-                            <a href="#" rel="nofollow noopener"
-                                target="_blank" class="ud-main-btn ud-white-btn">
-                                Donate
-                            </a>
-                        </li>
-                        <li>
                             <a href="#" rel="nofollow noopener" target="_blank"
-                                class="buttoni" style="">
+                                class="buttoni" style="background: #ffba56; border: 1px solid #ffba56; color:white" style="">
                                 Watch Mbuland
                             </a>
                         </li>
@@ -51,7 +45,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="ud-section-title">
-                    <h2 style="color: #6C412E">Stories have the power to <br> change the world</h2>
+                    <h2 style="color: #6C412E">Stories have the power to <br> <span style="background: black; padding: 5px 20px; color: white; font-size: 60px">change the world</span></h2>
                     <div class="text-center" style=" max-width: 100% ">
                         <p style="color: #6C412E">
                             We are pioneers in the field of Social and Behavioral Change Communication (SBCC) <br> in
@@ -321,7 +315,7 @@
 <!-- ====== Work End ====== -->
 
 <!-- ====== About Start ====== -->
-<section id="features" class="ud-features" style="background:#FFCE97">
+<section id="features" class="ud-features" style="background:#ffba56">
     <div class="container">
         <div class="row">
 
@@ -329,7 +323,7 @@
                 <div class="ud-about-title">
                      <span style="color: black">About Us</span> 
                     <h2 style="color: black;font-size: 50px !important">
-                        Intresting heading about our cause
+                        Interesting heading about our cause
                     </h2>
                     <br>
                     <p style="text-align: justify; color: black">

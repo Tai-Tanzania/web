@@ -2,3 +2,4 @@
 
 <h1>our partners</h1>
 
+@endcomponent

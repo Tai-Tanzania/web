@@ -877,7 +877,7 @@ header .overlay {
 
 /* ===== About CSS ===== */
 .ud-about {
-  background: #C95A48;
+  background: #6c4130;
   padding: 120px 0;
 }
 
@@ -1419,7 +1419,7 @@ header .overlay {
   top: 0;
   left: 0;
   height: 50%;
-  background: #c85a48;
+  background: #6c4130;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
